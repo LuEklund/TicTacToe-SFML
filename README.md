@@ -1,6 +1,6 @@
 This is a simple TicTacToe.
 you can play against yourself or with one friend.
-![](https://github.com/LuEklund/Snake-SFML/blob/master/assets/thumbnail.png)
+![](https://github.com/LuEklund/TicTacToe-SFML/blob/master/assets/thumbnail.png)
 
 ## Prerequisites
 
