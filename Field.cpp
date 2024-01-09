@@ -40,9 +40,9 @@ bool Field::initField(sf::Font &font)
 			m_squares[x][y].setPosition(winX + x * m_cellSize, winY + y * m_cellSize);
 
 			m_symbol[x][y].setFont(font);
-			m_symbol[x][y].setPosition( winX + x * m_cellSize, winY + y * m_cellSize);
+			m_symbol[x][y].setPosition( winX + x * m_cellSize + (m_cellSize/2) - 10, winY + y * m_cellSize + (m_cellSize/2) - 30);
 			m_symbol[x][y].setFillColor(sf::Color::White);
-			m_symbol[x][y].setCharacterSize(20);
+			m_symbol[x][y].setCharacterSize(50);
 			m_symbol[x][y].setString("");
 		}
 	}
